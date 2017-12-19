@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:id="@+id/main_head_adv_ll">
+
+    <!--<fragment-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:name="com.example.a90678.mm_2017_05_28_15_50.main.view.MainFragment1_1_adv1"-->
+        <!--android:id="@+id/main_head_adv_frg"/>-->
+
+</LinearLayout>

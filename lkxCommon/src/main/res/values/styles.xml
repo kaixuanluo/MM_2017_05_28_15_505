@@ -1,0 +1,171 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="mainBgColor">#C8E6C9</item>
+        <item name="mainColor">#4CAF50</item>
+        <item name="textColor">#C8E6C9</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <!--<style name="AppTheme" parent="AppBaseTheme">-->
+        <!--&lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
+    <!--</style>-->
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar.Default">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="mainBgColor">#C8E6C9</item>
+        <item name="mainColor">#4CAF50</item>
+        <item name="textColor">#C9C8E6</item>
+        <!--<item name="android:colorBackground">#4CAF50</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar.Red">
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryDark">#8E3C38</item>
+        <item name="colorAccent">#9E9E9E</item>
+        <item name="mainBgColor">#C8E6C9</item>
+        <item name="mainColor">#4CAF50</item>
+        <item name="textColor">#C9C8E6</item>
+        <!--<item name="android:colorBackground">#4CAF50</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar.Green">
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorAccent">#9E9E9E</item>
+        <item name="mainBgColor">#C8E6C9</item>
+        <item name="mainColor">#4CAF50</item>
+        <item name="textColor">#C8E6C9</item>
+        <!--<item name="android:colorBackground">#4CAF50</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar.Blue">
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">#607D8B</item>
+        <item name="mainBgColor">#BBDEFB</item>
+        <item name="mainColor">#2196F3</item>
+        <item name="textColor">#BBDEFB</item>
+        <!--<item name="android:colorBackground">#2196F3</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar.Purple">
+        <item name="colorPrimary">@color/colorPrimaryPurple</item>
+        <item name="colorPrimaryDark">#512DA8</item>
+        <item name="colorAccent">#795548</item>
+        <item name="mainBgColor">#D1C4E9</item>
+        <item name="mainColor">#673AB7</item>
+        <item name="textColor">#D1C4E9</item>
+        <!--<item name="android:colorBackground">#673AB7</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar.Grey">
+        <item name="colorPrimary">@color/colorPrimaryGrey</item>
+        <item name="colorPrimaryDark">#455A64</item>
+        <item name="colorAccent">#FFC107</item>
+        <item name="mainBgColor">#CFD8DC</item>
+        <item name="mainColor">#607D8B</item>
+        <item name="textColor">#CFD8DC</item>
+        <!--<item name="android:colorBackground">#607D8B</item>-->
+    </style>
+
+    <style name="CardViewBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="View_padding">
+        <item name="android:layout_marginLeft">@dimen/space_8</item>
+        <item name="android:layout_marginRight">@dimen/space_8</item>
+        <item name="android:layout_marginTop">@dimen/space_8</item>
+        <item name="android:layout_marginBottom">@dimen/space_8</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="View_padding_4">
+        <item name="android:layout_marginLeft">@dimen/space_4</item>
+        <item name="android:layout_marginRight">@dimen/space_4</item>
+        <item name="android:layout_marginTop">@dimen/space_4</item>
+        <item name="android:layout_marginBottom">@dimen/space_4</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="View_padding.TextView"></style>
+
+    <style name="View_padding_4.TextView"></style>
+
+    <style name="View_padding.TextView.Title" >
+
+        <item name="android:textSize">@dimen/text_size_24</item>
+
+    </style>
+
+    <style name="View_padding.ImageView" >
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="View_padding.ImageView.head" >
+    </style>
+
+    <style name="LinearLayout"></style>
+
+    <style name="LinearLayout.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="LinearLayout.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ViewPage">
+
+    </style>
+
+    <style name="ViewPage.Default">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="CardView.Default">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="cardCornerRadius">@dimen/corner_4</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Toolbar_Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+</resources>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.ufreedom.uikit:FloatingViewLib-1.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FloatingViewLib-1.0.2.aar/90c40a273d7fbc357eefe1c68c9c185b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FloatingViewLib-1.0.2.aar/90c40a273d7fbc357eefe1c68c9c185b/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ufreedom.uikit/FloatingViewLib/1.0.2/f00dc1e0d726c7bb4207c408ebc57a4dc40904f2/FloatingViewLib-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

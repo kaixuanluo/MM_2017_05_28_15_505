@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.example.a90678.mm_2017_05_28_15_503"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    signingConfigs {
+        release {
+            keyAlias 'key0'
+            keyPassword '1+1=21-1=01x1=1'
+            storeFile file('./key/mmKey.jks')
+            storePassword 'ss911117'
+        }
+
+        debug {
+//            keyAlias 'androiddebugkey'
+//            keyPassword 'android'
+//            storeFile file('./key/debug.keystore')
+//            storePassword 'android'
+
+            keyAlias 'key0_debug'
+            keyPassword '1+1=21-1=01x1=1'
+            storeFile file('./key/mmKey_debug.jks')
+            storePassword 'ss911117'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+
+        debug {
+            minifyEnabled true
+            applicationIdSuffix '.debug'
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+    }
+
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:25.4.0'
+    implementation 'com.android.support:support-vector-drawable:25.4.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+    compile project(':lkxCommon')
+}

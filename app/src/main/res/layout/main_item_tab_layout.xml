@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="@dimen/space_8"
+    android:layout_marginBottom="@dimen/space_8">
+
+    <ImageView
+        android:layout_width="@dimen/home_tab_img_height"
+        android:layout_height="@dimen/home_tab_img_height"
+        android:id="@+id/tab_iv"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_tv"
+        android:textColor="@color/main_tab_text"
+        android:textSize="@dimen/text_size_10"/>
+</LinearLayout>

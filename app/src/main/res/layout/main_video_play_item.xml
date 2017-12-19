@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/CardView.Default"
+    android:layout_margin="@dimen/space_2">
+
+    <fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_video_play_item"></fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard>
+
+    <TextView
+       style="@style/View_padding.TextView"
+        android:text="广告"
+        android:shadowColor="@color/colorGray"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        android:id="@+id/main_video_play_item_gg_tv"
+        android:layout_gravity="bottom|right"/>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<android.support.design.widget.AppBarLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:theme="@style/AppTheme.AppBarOverlay"-->
+            <!--app:elevation="0dp">-->
+
+            <!--<android.support.v7.widget.Toolbar-->
+                <!--android:id="@+id/toolbar"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="?attr/actionBarSize"-->
+                <!--android:background="?attr/colorPrimary"-->
+                <!--app:layout_scrollFlags="scroll"-->
+                <!--app:popupTheme="@style/AppTheme.PopupOverlay" />-->
+        <!--</android.support.design.widget.AppBarLayout>-->
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll"
+            tools:context="com.example.admin.tabtitle_2016_12_29_19_13.MainActivity">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay"
+                app:layout_scrollFlags="scroll"
+                app:elevation="0dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#999999"
+                    android:gravity="center"
+                    android:minHeight="50dp"
+                    android:text="顶部标题"
+                    android:textColor="#fff"
+                    app:layout_scrollFlags="scroll"
+                    android:visibility="gone"/>
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="200dp"-->
+                    <!--android:background="#666666"-->
+                    <!--android:gravity="center"-->
+                    <!--android:minHeight="50dp"-->
+                    <!--android:text="this is content"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:textSize="18sp"-->
+                    <!--app:layout_scrollFlags="scroll" />-->
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:minHeight="50dp"
+                    android:text="this is content"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    app:layout_scrollFlags="scroll"
+                    android:id="@+id/main_frg_1_1_adv_fl"/>
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="44dp"-->
+                    <!--android:background="#fff"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--app:layout_scrollFlags="scroll">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_title1"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center"-->
+                        <!--android:text="scrollFragment"-->
+                        <!--android:textColor="@color/select_option_title"-->
+                        <!--android:textSize="14sp"-->
+                        <!--app:layout_scrollFlags="scroll"/>-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_title2"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center"-->
+                        <!--android:text="recyclerFragment"-->
+                        <!--android:textColor="@color/select_option_title"-->
+                        <!--android:textSize="14sp"-->
+                        <!--app:layout_scrollFlags="scroll"/>-->
+                <!--</LinearLayout>-->
+
+            </android.support.design.widget.AppBarLayout>
+
+            <include layout="@layout/content_two" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@color/cardview_dark_background"
+                app:srcCompat="@android:drawable/ic_menu_rotate" />
+
+        </android.support.design.widget.CoordinatorLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            style="@style/View_padding.TextView.Title"
+            android:id="@+id/main_tv_title"
+            tools:text = "qqqqqqq"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        style="@style/LinearLayout.Vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/View_padding.TextView"
+            tools:text="1111111"
+            android:id="@+id/main_content_tv_1"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/View_padding.TextView"
+            tools:text="1111111"
+            android:id="@+id/main_content_tv_2"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/View_padding.TextView"
+            tools:text="1111111"
+            android:id="@+id/main_content_tv_3"/>
+
+
+    </LinearLayout>
+</LinearLayout>
